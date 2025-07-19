@@ -1,0 +1,1 @@
+# Internship-Task7-Create-a-Responsive-Blog-Post-Page-Template-using-HTML-CSS-JavaScript-
