@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Tech Blog</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <h1>My Tech Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container blog-container">
+    <div class="blog-post">
+      <h2>Exploring AI Trends in 2025</h2>
+      <p class="meta">Posted on July 19, 2025 by Admin</p>
+      <img src="Ai.jpg" alt="Blog Image" class="blog-image">
+      <p>Artificial Intelligence (AI) continues to shape our future. From generative AI tools like ChatGPT to real-time robotics and edge computing, 2025 is showing explosive growth in intelligent systems...</p>
+      <p>AI is now integrated across industries – healthcare, education, software development, and cybersecurity. As language models grow smarter, ethical AI practices and open-source communities are gaining more importance...</p>
+      <p>Another major trend is the combination of AI with blockchain for secure automation, and growth of no-code/low-code AI tools that make development easier for everyone...</p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+
+      <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <form id="commentForm">
+          <input type="text" id="name" placeholder="Your Name" required />
+          <textarea id="comment" placeholder="Your Comment" rows="4" required></textarea>
+          <button type="submit">Post Comment</button>
+        </form>
+        <div id="commentList"></div>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <input type="text" id="searchBar" class="search-box" placeholder="Search recent blogs...">
+      <h4>Recent Blogs</h4>
+      <ul id="recentBlogs">
+        <li>AI in Healthcare</li>
+        <li>Top Web Dev Trends</li>
+        <li>Machine Learning Basics</li>
+        <li>Intro to Neural Networks</li>
+        <li>Latest in Robotics</li>
+        <li>Edge AI Explained</li>
+        <li>Tech in Education</li>
+        <li>Open Source Revolution</li>
+        <li>AI Ethics</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Tech Blog | All rights reserved</p>
+  </footer>
+</body>
+</html>
